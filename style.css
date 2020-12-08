@@ -2,7 +2,7 @@
 
 
 :root{
-    --header-color1 :#6B7280;
+    --header-color1 :#374151;
     --header-color2 :#D1D5DB;
 }
 
@@ -11,7 +11,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: 'Courgette', cursive;
-    background-image: url("https://cdn.pixabay.com/photo/2019/02/22/19/03/digits-4014181__340.jpg");
+    background-image: url("https://images.pexels.com/photos/1034425/pexels-photo-1034425.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +22,7 @@ header{
     letter-spacing: 0.3rem;
     background-color: var(--header-color1);
     margin: auto;
-    max-width: 75%;
+    max-width: 65%;
     padding: 1.5rem;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
@@ -76,21 +76,24 @@ header{
 
 .ans{
     position: relative;
-    width: 100%;
+    max-width: 90%;
+    margin: auto;
     height: 35vh;
     background-color: rgb(255, 255, 255);
     opacity: 0.6;
+    border-radius: 0.5rem;
 }
 
 
 #left{
     position: absolute;
-    width: 40%;
+    width: 42%;
     height: 20vh;
     left: 0;
     border: black solid 0.1rem;
     margin: 2rem 0.5rem;
     padding: 0.5rem;
+    /* margin-left: 1rem ; */
     text-align: center;
     border-radius: 0.3rem;
     font-size: large;
@@ -101,9 +104,10 @@ header{
     font-size: large;
     font-weight: bolder;
     position: absolute;
-    width: 40%;
+    width: 42%;
     height: 20vh;
     right:0;
+    margin-right:1rem ;
     border: black solid 0.1rem;
     margin: 2rem 0.5rem;
     padding: 0.5rem;
