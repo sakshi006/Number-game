@@ -1,23 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 
 :root{
-    --header-color1 :rgb(22,155,98);
-    --header-color2 : rgb(255 130 0);
+    --header-color1 :#10B981;
+    --header-color2 :#064E3B;
 }
 
 body{
     /* background-color: aqua; */
     margin: 0px;
     padding: 0px;
+    font-family: 'Courgette', cursive;
 }
 
 
 header{
     background-color: var(--header-color1);
     margin: auto;
-    max-width: 70%;
-    height: 15vh;
+    max-width: 75%;
+    padding: 1.5rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    text-align: center;
+    font-size: xx-large;
 }
 
 .txt{
@@ -45,7 +50,14 @@ header{
 
 #btn{
   /* margin: 0.5rem; */
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--header-color1);
+  color: var(--header-color2);
+  font-family: 'Courgette', cursive;
+  letter-spacing: 0.3rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border-color: var(--header-color2);
 }
 
 .ans{
@@ -84,4 +96,14 @@ header{
     text-align: center;
     color: white;
     margin-top: 2rem;
+}
+
+a{
+    text-decoration: solid;
+}
+
+.fa{
+    padding: 0.3rem 1rem;
+    text-decoration: none;
+    color: var(--header-color2);
 }
